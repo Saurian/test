@@ -1,17 +1,14 @@
 <?php
+
 /**
- *
  * This file is part of the smazat2
- *
  * Copyright (c) 2015
  *
- * @file Pokus2.php
+ * @file    Pokus2.php
  * @author  Pavel Paulík <pavel.paulik1@gmail.com>
  */
-
-class Pokus2 {
-
-
+class Pokus2
+{
 
 
 //    naše soubory
@@ -25,5 +22,10 @@ class Pokus2 {
         $this->test = 0;
     }
 
+
+    public function a15()
+    {
+
+    }
 
 } 
