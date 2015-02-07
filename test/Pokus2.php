@@ -23,8 +23,18 @@ class Pokus2
     }
 
 
-    public function a15()
+    /**
+     * @param $a
+     *
+     * @return int
+     */
+    public function a15($a)
     {
+        if ($a !== $this->test) {
+            var_dump($a);
+        }
+
+        return $a % $this->test;
 
     }
 
