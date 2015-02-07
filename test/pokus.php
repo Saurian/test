@@ -11,10 +11,14 @@
 
 class pokus {
 
-    private $some;
+    private $POKUS;
 
     function __construct()
     {
-        $this->some = 0;
+        $this->POKUS = 0;
     }
+
+
+
+
 }
